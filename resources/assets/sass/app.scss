@@ -1,6 +1,6 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
 @import "variables";
@@ -8,7 +8,29 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// Bootstrap-vue
+@import '~bootstrap-vue/dist/bootstrap-vue.css';
+
+// Font-awesome
+@import '~font-awesome/scss/font-awesome';
+
+// Social buttons
+@import 'socials';
+
+
+.modal a:hover {
+    text-decoration: none;
+}
+
+.font-sm {
+    font-size: .75rem;
+}
+
+.bg-black {
+    background-color: #111;
+}
+
+.navbar .container {
+    padding-left: 0;
+    padding-right: 0;
 }
